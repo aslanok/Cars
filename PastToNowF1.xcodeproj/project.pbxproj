@@ -16,6 +16,9 @@
 		FACB8BD42866276400DAF9E7 /* PastToNowF1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB8BD32866276400DAF9E7 /* PastToNowF1Tests.swift */; };
 		FACB8BDE2866276400DAF9E7 /* PastToNowF1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB8BDD2866276400DAF9E7 /* PastToNowF1UITests.swift */; };
 		FACB8BE02866276400DAF9E7 /* PastToNowF1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB8BDF2866276400DAF9E7 /* PastToNowF1UITestsLaunchTests.swift */; };
+		FACB8BED2866289800DAF9E7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB8BEC2866289800DAF9E7 /* InfoViewController.swift */; };
+		FACB8BEF286629F500DAF9E7 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB8BEE286629F500DAF9E7 /* Cars.swift */; };
+		FACB8BF328663FCD00DAF9E7 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB8BF228663FCD00DAF9E7 /* CarDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FACB8BD92866276400DAF9E7 /* PastToNowF1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastToNowF1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACB8BDD2866276400DAF9E7 /* PastToNowF1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastToNowF1UITests.swift; sourceTree = "<group>"; };
 		FACB8BDF2866276400DAF9E7 /* PastToNowF1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastToNowF1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FACB8BEC2866289800DAF9E7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		FACB8BEE286629F500DAF9E7 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		FACB8BF228663FCD00DAF9E7 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				FACB8BBC2866276000DAF9E7 /* AppDelegate.swift */,
 				FACB8BBE2866276000DAF9E7 /* SceneDelegate.swift */,
+				FACB8BEE286629F500DAF9E7 /* Cars.swift */,
 				FACB8BC02866276000DAF9E7 /* ViewController.swift */,
+				FACB8BF228663FCD00DAF9E7 /* CarDetailViewController.swift */,
+				FACB8BEC2866289800DAF9E7 /* InfoViewController.swift */,
 				FACB8BC22866276000DAF9E7 /* Main.storyboard */,
 				FACB8BC52866276400DAF9E7 /* Assets.xcassets */,
 				FACB8BC72866276400DAF9E7 /* LaunchScreen.storyboard */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACB8BEF286629F500DAF9E7 /* Cars.swift in Sources */,
 				FACB8BC12866276000DAF9E7 /* ViewController.swift in Sources */,
+				FACB8BF328663FCD00DAF9E7 /* CarDetailViewController.swift in Sources */,
 				FACB8BBD2866276000DAF9E7 /* AppDelegate.swift in Sources */,
+				FACB8BED2866289800DAF9E7 /* InfoViewController.swift in Sources */,
 				FACB8BBF2866276000DAF9E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
